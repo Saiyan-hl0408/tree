@@ -1,0 +1,98 @@
+{
+    "header": [
+        " *   ",
+        " *   如非需要调试，本文件可删除",
+        " *   非专业人员可将本文件删除",
+        " *   详细介绍请参考: https://bazhan.wang/faq#INFO-JSON",
+        " *   "
+    ],
+    "resources": [
+        {
+            "url": "http://947fk.cn/14/",
+            "path": "index.html",
+            "saved": true,
+            "size": 3901,
+            "children": [
+                {
+                    "url": "https://pic.imgdb.cn/item/63913236b1fccdcd3643f86d.gif",
+                    "saved": false
+                },
+                {
+                    "url": "http://res.wx.qq.com/open/js/jweixin-1.0.0.js",
+                    "path": "js/jweixin-1.0.0.js",
+                    "saved": true,
+                    "size": 9630,
+                    "children": []
+                },
+                {
+                    "url": "http://js.users.51.la/21504121.js",
+                    "saved": false
+                },
+                {
+                    "url": "http://947fk.cn/14/style.css",
+                    "path": "css/style.css",
+                    "saved": true,
+                    "size": 1202,
+                    "children": []
+                },
+                {
+                    "url": "https://sf6-cdn-tos.douyinstatic.com/obj/ies-music/6905357668872063752.mp3",
+                    "path": "media/6905357668872063752.mp3",
+                    "saved": true,
+                    "size": 0,
+                    "children": []
+                }
+            ]
+        }
+    ],
+    "alias": "947fk-cn-atl9czy",
+    "info": {
+        "remark": [],
+        "title": "圣诞树",
+        "domain": "947fk.cn",
+        "origin": "http://947fk.cn",
+        "ip": "154.12.52.243",
+        "main": "index.html",
+        "url": "http://947fk.cn/14/",
+        "totalSize": "14.7 kB",
+        "request": {
+            "headers": {
+                "accept": "text/html,*/*",
+                "accept-language": "zh-CN,zh;q=0.9",
+                "cache-control": "no-cache",
+                "cookie": "",
+                "referer": "http://947fk.cn/14",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36",
+                "x-scraper-website": "https://bazhan.wang/"
+            }
+        },
+        "response": {
+            "responseUrl": "http://947fk.cn/14/",
+            "redirects": [],
+            "statusCode": 200,
+            "headers": {
+                "server": "nginx",
+                "date": "Thu, 22 Dec 2022 09:33:42 GMT",
+                "content-type": "text/html",
+                "content-length": "4616",
+                "last-modified": "Thu, 22 Dec 2022 04:55:57 GMT",
+                "connection": "close",
+                "vary": "Accept-Encoding",
+                "etag": "\"63a3e35d-1208\"",
+                "accept-ranges": "bytes"
+            }
+        },
+        "time": {
+            "start": "2022-12-22T09:33:42.054Z",
+            "end": "2022-12-22T09:33:45.634Z"
+        }
+    },
+    "options": {
+        "url": "http://947fk.cn/14",
+        "referer": "",
+        "cookies": "",
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36",
+        "formatter": [],
+        "filenameGenerator": "byType"
+    }
+}

@@ -1,0 +1,196 @@
+<!DOCTYPE html><!-- This web page is copied by "https://bazhan.wang" --><html><head><meta charset="utf-8">
+</head><body><a href=" https://primordial-cloud.gitee.io/yunto520" style="position: fixed;top: 20%;right: 20px;width: 40px;height: 40px;z-index: 999;background: #00000047;line-height: 35px;border-radius: 90%;padding: 25px;text-align: center;color: #ddd;">💘💘💕</a>
+	
+	    
+
+    <br>
+
+    <audio id="bgmusic" src="media/6905357668872063752.mp3" autoplay="" preload="" loop="" controls=""></audio>
+
+    <!-- 当使用方法1时必须加载 JS-SDK 的 JS 文件, 方法2不需要加载这个 JS -->
+
+    <script src="js/jweixin-1.0.0.js"></script>
+
+    <script>
+
+    // 方法1: 现在微信官方已经推出了微信JS-SDK, 最好还是不要使用"野生"方式, 因为不知道什么时候就可以不能用了!
+
+    // 通过config接口注入权限验证配置后, 在 ready 中 play 一下 audio
+
+    function autoPlayAudio1() {
+
+        wx.config({
+
+            // 配置信息, 即使不正确也能使用 wx.ready
+
+            debug: false,
+
+            appId: '',
+
+            timestamp: 1,
+
+            nonceStr: '',
+
+            signature: '',
+
+            jsApiList: []
+
+        });
+
+        wx.ready(function() {
+
+            document.getElementById('bgmusic').play();
+
+        });
+
+    }
+
+    // 方法2: "野生"方法, 借用原来老的 WeixinJSBridge
+
+    function autoPlayAudio2() {
+
+        window.onload = function() {
+
+            // alert(typeof WeixinJSBridge);
+
+            WeixinJSBridge.invoke('getNetworkType', {}, function(e) {
+
+                // 在这里拿到 e.err_msg, 这里面就包含了所有的网络类型
+
+                // alert(e.err_msg);
+
+                document.getElementById('bgmusic').play();
+
+            });
+
+        };
+
+    }
+
+    // 大家或多或少都知道 iOS Safari 不允许自动播放 audio, 可能已经被坑过了,
+
+    // 但微信内嵌的浏览器应该是做了一些定制化, 允许自动播放 audio.
+
+    // 测试了以下机型在微信内嵌浏览器中仅需设置 audio autoplay 即可自动播放(audio)音乐, 无需特殊处理.
+
+    // * iPhone5     iOS 7.0.6 WeChat 6.2
+
+    // * iPhone5s    iOS 8.1.2 WeChat 6.3.7
+
+    // * iPhone6Plus iOS 8.1.3 WeChat 6.3.7
+
+    // * MI1S    Android 4.1.2 WeChat 6.3.7
+
+    //
+
+    // 但是当手机是 iPhone6s iOS 9.1 WeChat 6.3.7 时, 必须做如下特殊处理才能在微信中自动播放(audio)音乐,
+
+    // 我可以推测是 iOS 9 的兼容性问题么?
+
+    //
+
+    autoPlayAudio1(); // 推荐使用方法1
+
+    // autoPlayAudio2(); // 也可以试一试方法2
+
+    </script>
+
+
+		
+		<title>圣诞树</title>
+	
+	<style>
+	
+		html, body {
+		  height: 100%;
+		  padding: 0;
+		  margin: 0;
+		  background: #000;
+		}
+		img{
+			display: block;
+			margin: 0 auto;
+		}
+		label{
+			
+			display: block;
+			margin: 0 auto;
+			color: pink;
+			font-size: 20px;
+			padding-right: 5px;//往左偏移10px
+			animation:mymove 2.5s infinite;/* //关联动画名称、动画时长、循环 */
+				/*Safari 和 Chrome:*/
+				-webkit-animation:mymove 2.5s infinite;/* //同上（兼容） */
+		}
+		@keyframes mymove
+			{
+			50% {font-size: 40px;}/* //名字放大大小 */
+		}
+		
+		/*Safari 和 Chrome:*/
+		@-webkit-keyframes mymove
+		{
+			50% {font-size: 40px;}/* //名字放大大小 */
+		}
+		.middle{
+			width: 100%;
+			height: 0%;
+			display: flex;align-items: center;
+		}
+		.middle2{
+			position: absolute;
+			z-index: 2;
+			width: 100%;
+			height: 100%;
+			
+			display: flex;align-items: center;
+		}
+	</style>
+<link rel="stylesheet" href="css/style.css">
+
+<script>
+    var shouci=true;
+    console.log(shouci);
+        function bodyPlayMusic(){
+            if(shouci){
+                shouci=false;
+                audio.play();
+                console.log(shouci);
+            }
+        };
+    </script>
+    
+    
+    
+ 
+
+
+    <div class="container">
+        <span>圣</span>
+        <span>诞</span>
+        <span>节</span>
+        <span>快</span>
+        <span>乐</span>
+ 
+    </div>
+	
+	
+		<div class="middle">
+			<div class="middle2">
+		
+
+        <br>
+			
+				
+			</div>
+			
+			<img src="https://pic.imgdb.cn/item/63913236b1fccdcd3643f86d.gif" width="1000" height="600">
+		</div>
+
+ 
+    
+<script type="text/javascript" src="http://js.users.51.la/21504121.js"></script>
+<script src="js/jweixin-1.0.0.js"></script>
+<meta name="baidu_union_verify" content="3c674e7454c4b2f7df909c2afc245310">
+	
+</body></html>
